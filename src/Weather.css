@@ -43,7 +43,6 @@ body {
 }
 .Weather .current-icon-temp {
   display: flex;
-  justify-content: space-between;
 }
 .Weather .current-icon img {
   width: 75px;
@@ -56,6 +55,7 @@ body {
 .Weather .unit {
   font-size: 20px;
 }
+
 .Weather .extra-info {
   font-size: 18px;
   font-style: italic;
