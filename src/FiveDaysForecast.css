@@ -1,0 +1,17 @@
+.FiveDaysForecast {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.FiveDaysForecast img {
+  width: 50px;
+  height: 50px;
+}
+.FiveDaysForecast-day {
+  font-size: 18px;
+  opacity: 0.9;
+}
+.FiveDaysForecast-min {
+  opacity: 0.7;
+  color: red;
+}
