@@ -28,16 +28,13 @@ body {
 }
 .Weather h1 {
   font-size: 40px;
+  font-weight: bold;
 }
 .Weather .current-time-date li {
   font-size: 18px;
   list-style-type: none;
   margin-left: -30px;
   line-height: 20px;
-}
-
-.Weather .current-icon-temp {
-  display: flex;
 }
 
 .Weather .current-temp {
@@ -58,4 +55,33 @@ body {
   padding-left: 0px;
   margin: 20px 0;
   border-bottom: 1px solid grey;
+}
+@media (max-width: 800px) {
+  .Weather h1 {
+    font-size: 25px;
+  }
+  .Weather .current-temp {
+    font-size: 50px;
+    margin-left: 5px;
+  }
+  .Weather .unit {
+    font-size: 14px;
+    position: relative;
+    top: -24px;
+  }
+  .Weather .extra-info {
+    font-size: 14px;
+  }
+  .Weather .enter-city {
+    font-size: 14px;
+    padding: 12px 18px;
+  }
+  .Weather .search-city {
+    font-size: 14px;
+    padding: 12px 20px;
+    margin-left: -15px;
+  }
+  .Weather form {
+    padding: 0 0 20px 0;
+  }
 }
