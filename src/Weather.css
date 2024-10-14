@@ -35,25 +35,19 @@ body {
   margin-left: -30px;
   line-height: 20px;
 }
-.Weather h2 {
-  font-size: 30px;
-  font-style: italic;
-  font-weight: 100;
-  text-align: center;
-}
+
 .Weather .current-icon-temp {
   display: flex;
 }
-.Weather .current-icon img {
-  width: 75px;
-  height: 75px;
-}
+
 .Weather .current-temp {
   font-size: 80px;
   margin-top: -35px;
 }
 .Weather .unit {
   font-size: 20px;
+  position: relative;
+  top: -34px;
 }
 
 .Weather .extra-info {

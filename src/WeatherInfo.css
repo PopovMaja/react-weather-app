@@ -1,0 +1,11 @@
+.WeatherInfo h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
+.WeatherInfo .current-icon img {
+  width: 75px;
+  height: 75px;
+  margin-top: 40px;
+}

@@ -4,7 +4,7 @@
     rgb(137, 210, 253) 0%,
     rgb(255, 241, 188) 90%
   );
-  width: 600px;
+  max-width: 600px;
   margin: 50px auto;
   padding: 30px;
   border-radius: 20px;

@@ -29,7 +29,7 @@ export default function ForecastPerDay(props) {
         />
       </div>
       <div className="FiveDaysForecast-temperature">
-        <span className="FiveDaysForecast-max">{maxTemp()} / </span>
+        <span className="FiveDaysForecast-max">{maxTemp()}/</span>
         <span className="FiveDaysForecast-min">{minTemp()}</span>
       </div>
     </div>
