@@ -56,7 +56,7 @@ body {
   margin: 20px 0;
   border-bottom: 1px solid grey;
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .Weather h1 {
     font-size: 25px;
   }

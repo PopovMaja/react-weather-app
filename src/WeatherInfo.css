@@ -10,7 +10,7 @@
   height: 75px;
   margin-top: 40px;
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .WeatherInfo h2 {
     font-size: 25px;
   }
